@@ -31,6 +31,19 @@
 1. `src/main/java/com/metflix/MembershipApplication.java`を[この内容](https://github.com/making/metflix/blob/master/membership/src/main/java/com/metflix/MembershipApplication.java)に変更
 1. `src/main/resources/application.properties`を[この内容](https://github.com/making/metflix/blob/master/membership/src/main/resources/application.properties)に変更
 
+> **Tips**
+> 
+> 雛形プロジェクトは
+> ``` console
+> curl start.spring.io/starter.tgz \
+>        -d groupId=com.metflix \
+>        -d artifactId=membership \
+>        -d packageName=com.metflix \
+>        -d baseDir=membership \
+>        -d dependencies=web,actuator \
+>        -d applicationName=MembershipApplication | tar -xzvf -
+> ```
+> でも生成可能です。この場合、File -> Import -> Maven -> Existing Maven Projectsで生成したフォルダを選択し、プロジェクトをインポートしてください。
 
 #### 動作確認
 
@@ -87,6 +100,20 @@ Boot Dashboardでアプリケーションの制御を行える。
 1. `src/main/java/com/metflix/RecommendationsApplication.java`を[この内容](https://github.com/making/metflix/blob/master/recommendations/src/main/java/com/metflix/RecommendationsApplication.java)に変更
 1. `src/main/resources/application.properties`を[この内容](https://github.com/making/metflix/blob/master/recommendations/src/main/resources/application.properties)に変更
 
+> **Tips**
+> 
+> 雛形プロジェクトは
+> ``` console
+> curl start.spring.io/starter.tgz \
+>        -d groupId=com.metflix \
+>        -d artifactId=recommendations \
+>        -d packageName=com.metflix \
+>        -d baseDir=recommendations \
+>        -d dependencies=web,actuator \
+>        -d applicationName=RecommendationsApplication | tar -xzvf -
+> ```
+> でも作成可能です。
+
 #### 動作確認
 
 Package Explorerの`RecommendationsApplication.java`を右クリック -> Run As -> Spring Boot App
@@ -142,6 +169,20 @@ Membershipサービスにアクセスがあることを確認
 1. Filename: `index.html`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/8e13987c-1c85-4c42-f674-c6144fc52f5b.png)
 1. `src/main/resources/templates/index.html`を[この内容](https://github.com/making/metflix/blob/master/ui/src/main/resources/templates/index.html)に変更
+
+> **Tips**
+> 
+> 雛形プロジェクトは
+> ``` console
+> curl start.spring.io/starter.tgz \
+>        -d groupId=com.metflix \
+>        -d artifactId=ui \
+>        -d packageName=com.metflix \
+>        -d baseDir=ui \
+>        -d dependencies=web,thymeleaf,security,actuator \
+>        -d applicationName=UiApplication | tar -xzvf -
+> ```
+> でも作成可能です。
 
 
 ### 動作確認
