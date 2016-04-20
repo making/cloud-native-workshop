@@ -184,6 +184,27 @@ $ cf push
 
 ### 動作確認
 
+`cf apps`、`cf services`の結果が以下のようになっていることを確認。
+
+``` console
+$ cf apps
+
+name                    requested state   instances   memory   disk   urls   
+config-server-tmaki     started           1/1         340M     1G     config-server-tmaki.cfapps.io   
+eureka-server-tmaki     started           1/1         358M     1G     eureka-server-tmaki.cfapps.io   
+membership-tmaki        started           1/1         450M     1G     membership-tmaki.cfapps.io   
+recommendations-tmaki   started           1/1         450M     1G     recommendations-tmaki.cfapps.io   
+ui-tmaki                started           1/1         450M     1G     ui-tmaki.cfapps.io
+```
+
+``` console
+$ cf services
+
+name            service         plan   bound apps                                                               last operation   
+config-server   user-provided          eureka-server-tmaki, membership-tmaki, recommendations-tmaki, ui-tmaki      
+eureka-server   user-provided          membership-tmaki, recommendations-tmaki, ui-tmaki
+```
+
 [http://ui-tmaki.cfapps.io](http://ui-tmaki.cfapps.io)にアクセス (`tmaki`を自分のアカウントまたはイニシャルに変更してください)。
 
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/47c85439-418e-6fea-6e01-4816243a1241.png)
