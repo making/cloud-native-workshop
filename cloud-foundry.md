@@ -66,31 +66,26 @@ Config Serverとしてバックエンドサービスを使えるように`bootst
 ``` console
 $ cd $WORKSHOP/config-server
 $ ./mvnw clean package -Dmaven.test.skip=true
-$ java -jar target/config-server-0.0.1-SNAPSHOT.jar
 ```
 
 ``` console
 $ cd $WORKSHOP/eureka-server
 $ ./mvnw clean package -Dmaven.test.skip=true
-$ java -jar target/eureka-server-0.0.1-SNAPSHOT.jar
 ```
 
 ``` console
 $ cd $WORKSHOP/membership
 $ ./mvnw clean package -Dmaven.test.skip=true
-$ java -jar target/membership-0.0.1-SNAPSHOT.jar
 ```
 
 ``` console
 $ cd $WORKSHOP/recommendations
 $ ./mvnw clean package -Dmaven.test.skip=true
-$ java -jar target/recommendations-0.0.1-SNAPSHOT.jar
 ```
 
 ``` console
 $ cd $WORKSHOP/ui
 $ ./mvnw clean package -Dmaven.test.skip=true
-$ java -jar target/ui-0.0.1-SNAPSHOT.jar
 ```
 
 > **Tips**
