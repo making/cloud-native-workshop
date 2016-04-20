@@ -23,6 +23,7 @@
 
 1. * Cloud Config -> `Config Client`
  * Cloud Discovery -> `Eureka Server`
+ * Ops -> `Actuator`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/ce2f3274-a5ac-520b-7334-f683fec95372.png)
 
 1. workspaceを確認
