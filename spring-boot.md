@@ -210,3 +210,31 @@ MembershipサービスとRecommendationsサービスにアクセスがあるこ�
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/e022f986-0052-c5aa-8440-21e707c3fd03.png)
 
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/c7f1868b-ad25-6d27-a0dd-f0351f65499b.png)
+
+### 実行可能jarの作成
+
+Boot Dashboardから3つのサービスを停止してください。
+
+![image](https://qiita-image-store.s3.amazonaws.com/0/1852/f87f2d08-ca8a-62d8-da24-13807acfe973.png)
+
+STSで"Run As -> Spring Boot App"を実行する代わりに、`./mvnw package`で実行可能jarファイルを作成して、これを実行することもできます。
+
+``` console
+$ export WORKSHOP=<your workspace>
+$ cd $WORKSHOP/membership
+$ ./mvnw clean package
+$ java -jar target/membership-0.0.1-SNAPSHOT.jar
+```
+
+``` console
+$ cd $WORKSHOP/recommendations
+$ ./mvnw clean package
+$ java -jar target/recommendations-0.0.1-SNAPSHOT.jar
+```
+
+
+``` console
+$ cd $WORKSHOP/ui
+$ ./mvnw clean package
+$ java -jar target/ui-0.0.1-SNAPSHOT.jar
+```
