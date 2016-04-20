@@ -21,7 +21,9 @@
 Spring Cloud Servicesへのアクセスを自動設定するための[Spring Cloud Services Starters](https://github.com/pivotal-cf/spring-cloud-services-starters)を使うように設定します。
 
 本稿作成時点で、Spring Cloud Servicesに対応しているSpring Bootのバージョンが1.2、Spring CloudのバージョンがAngelであるため、アプリケーションを一部変更します。
-また、[Spring Cloud Services用のコンフィギュレーション](https://github.com/making/metflix-config/tree/spring-cloud-services)を使用するように`bootstrap.properties`を変更します。([差分](https://github.com/making/metflix-config/compare/service-registry...spring-cloud-services))
+
+また、[Spring Cloud Services用のコンフィギュレーション](https://github.com/making/metflix-config/tree/spring-cloud-services)を使用するように`bootstrap.properties`を変更します([差分](https://github.com/making/metflix-config/compare/service-registry...spring-cloud-services))。
+
 `manifest.yml`もPivotal Cloud Foundry用に変更します (buildpack, memory増加, Hystrix Dashboardサービスのバインド)。
 
 #### Members
