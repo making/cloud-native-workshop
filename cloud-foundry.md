@@ -209,6 +209,7 @@ $ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/common.sh
 $ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/build.sh
 $ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/deploy.sh
 $ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/cleanup.sh
+$ chmod +x *.sh
 $ cd ..
 ```
 
