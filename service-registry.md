@@ -114,4 +114,4 @@ $ PORT=4446 java -jar target/membership-0.0.1-SNAPSHOT.jar
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/c0b41df4-c6bc-5b7e-e16b-74e47f698fab.png)
 
 
-[http://localhost:8080](http://localhost:8080)に何度かアクセスして、各Membershipサービスのログを見てそれぞれにアクセスがあることを確認してください。
+[http://localhost:8080](http://localhost:8080)に何度かアクセスして、各Membershipサービスのログを見てそれぞれにアクセスがあることを確認してください。
