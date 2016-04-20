@@ -211,7 +211,7 @@ Service Registryのインスタンス数が3になっていることを確認
 
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/50c48cfc-b3aa-6113-f32b-e994bdfc8135.png)
 
-Circuit Breaker Dashboardのスループットが変わらない（=メトリクスが集約されている)ことを確認
+Circuit Breaker Dashboardのスループットが変わらない（=メトリクスが集約されている)ことを確認
 
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/5e406d84-c097-dfa3-5e8e-6c78b95cf11e.png)
 
