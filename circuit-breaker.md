@@ -109,3 +109,8 @@ Package Explorerの`HystrixDashboardApplication.java`を右クリック -> Run A
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/bbf99ff3-76a9-e9d4-b96b-0c2395619014.png)
 
 `http://localhost:4444/hystrix.stream`も同様
+
+> **Tips**
+> 
+> 複数のストリームを集約するには別途[Turbine](http://cloud.spring.io/spring-cloud-static/spring-cloud.html#_turbine)の設定が必要です。
+> また、PaaSのようにスケーアウトした各インスタンスへのURLが同一な場合は`/hystrix.stream`にアクセスしてメトリクスをpullするのではなく、AMQPを使ってpushする必要があります。この場合は、別途[Turbine AMQP](http://cloud.spring.io/spring-cloud-static/spring-cloud.html#_turbine_amqp)の設定が必要です。
