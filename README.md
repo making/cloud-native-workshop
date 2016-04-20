@@ -1,6 +1,6 @@
 # cloud-native-workshop
 
-本ワークショップでは「Metflix」というダミー動画配信システムをマイクロサービスアーキテクチャで構築しSpring BootとSpring Cloudの使い方を学びます。またこのマイクロサービスをCloud Foundryにデプロイする方法を学びます。
+本ワークショップでは「Metflix」というダミー動画配信ライクなシステムをマイクロサービスアーキテクチャで構築しSpring BootとSpring Cloudの使い方を学びます。またこのマイクロサービスをCloud Foundryにデプロイする方法を学びます。
 
 今回作成するアプリケーションは以下のような一見普通のWebアプリケーションですが、
 
