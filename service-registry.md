@@ -37,7 +37,7 @@
 
 #### 動作確認
 
-Package Explorerの`ConfigServerApplication.java`を右クリック -> Run As -> Spring Boot App
+Package Explorerの`EurekaServerApplication.java`を右クリック -> Run As -> Spring Boot App
 
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/2d8b20d2-53e1-6246-46e5-7f09501db079.png)
 
