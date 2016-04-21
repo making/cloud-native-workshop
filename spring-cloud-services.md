@@ -118,17 +118,17 @@ Manifestマニフェストファイルを使ってPivotal Cloud Foundryにjarを
 
 ``` console
 $ cd $WORKSHOP/membership
-$ cf push
+$ cf push membership-tmaki
 ```
 
 ``` console
 $ cd $WORKSHOP/recommendations
-$ cf push
+$ cf push recommendations-tmaki
 ```
 
 ``` console
 $ cd $WORKSHOP/ui
-$ cf push
+$ cf push ui-tmaki
 ```
 
 ※ Spring Cloud Servicesの各サービスは初期化に時間がかかり、初期化完了前にアプリケーションにバインドしようとするとエラー(`Server error, status code: 502, error code: 10001, message: Service broker error: Service instance is not running and available for binding.`)が発生します。しばらく待ってから再度`cf push`してください。
