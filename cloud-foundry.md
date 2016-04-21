@@ -108,35 +108,35 @@ Cloud Foundryに各アプリケーションをデプロイするためのManife
 
 ``` console
 $ cd $WORKSHOP/config-server
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/config-server/manifest.yml
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/config-server/manifest.yml
 ```
 
 [`eureka-server`の`manifest.yml`](https://github.com/making/metflix/blob/05_cloud-foundry/eureka-server/manifest.yml)
 
 ``` console
 $ cd $WORKSHOP/eureka-server
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/eureka-server/manifest.yml
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/eureka-server/manifest.yml
 ```
 
 [`membership`の`manifest.yml`](https://github.com/making/metflix/blob/05_cloud-foundry/membership/manifest.yml)
 
 ``` console
 $ cd $WORKSHOP/membership
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/membership/manifest.yml
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/membership/manifest.yml
 ```
 
 [`recommendations`の`manifest.yml`](https://github.com/making/metflix/blob/05_cloud-foundry/recommendations/manifest.yml)
 
 ``` console
 $ cd $WORKSHOP/recommendations
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/recommendations/manifest.yml
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/recommendations/manifest.yml
 ```
 
 [`ui`の`manifest.yml`](https://github.com/making/metflix/blob/05_cloud-foundry/ui/manifest.yml)
 
 ``` console
 $ cd $WORKSHOP/ui
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/ui/manifest.yml
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/ui/manifest.yml
 ```
 
 ### Cloud Foundryへアプリケーションをデプロイ
@@ -221,10 +221,10 @@ eureka-server   user-provided          membership-tmaki, recommendations-tmaki, 
 $ cd $WORKSHOP
 $ mkdir scripts
 $ cd scripts
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/common.sh
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/build.sh
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/deploy.sh
-$ wget https://github.com/making/metflix/raw/05_cloud-foundry/scripts/cleanup.sh
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/scripts/common.sh
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/scripts/build.sh
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/scripts/deploy.sh
+$ curl -OL https://github.com/making/metflix/raw/05_cloud-foundry/scripts/cleanup.sh
 $ chmod +x *.sh
 $ cd ..
 ```
