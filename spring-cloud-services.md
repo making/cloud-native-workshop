@@ -228,10 +228,10 @@ $ cd $WORKSHOP
 $ rm -rf scripts
 $ mkdir scripts
 $ cd scripts
-$ wget https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/common.sh
-$ wget https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/build.sh
-$ wget https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/deploy.sh
-$ wget https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/cleanup.sh
+$ curl -OL https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/common.sh
+$ curl -OL https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/build.sh
+$ curl -OL https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/deploy.sh
+$ curl -OL https://github.com/making/metflix/raw/06_spring-cloud-services/scripts/cleanup.sh
 $ chmod +x *.sh
 $ cd ..
 ```
