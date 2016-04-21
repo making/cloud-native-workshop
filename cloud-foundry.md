@@ -145,27 +145,27 @@ Manifestマニフェストファイルを使ってCloud Foundryにjarをデプ�
 
 ``` console
 $ cd $WORKSHOP/config-server
-$ cf push
+$ cf push config-server-tmaki
 ```
 
 ``` console
 $ cd $WORKSHOP/eureka-server
-$ cf push
+$ cf push eureka-server-tmaki
 ```
 
 ``` console
 $ cd $WORKSHOP/membership
-$ cf push
+$ cf push membership-tmaki
 ```
 
 ``` console
 $ cd $WORKSHOP/recommendations
-$ cf push
+$ cf push recommendations-tmaki
 ```
 
 ``` console
 $ cd $WORKSHOP/ui
-$ cf push
+$ cf push ui-tmaki
 ```
 
 
