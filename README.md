@@ -48,3 +48,8 @@ Membership ServiceとRecommendations ServiceはREST APIであり、以下のよ�
 * PM 3:45 - PM 4:00 Break
 * PM 4:00 - PM 5:00 [Spring Cloud Services](spring-cloud-services.md)
 
+### TODO
+
+- [ ] Support Distibuted Tracing (Spring Cloud Sleuth + Zipkin)
+- [ ] Support OAuth2 (Spring Cloud Security)
+- [ ] Support CI/CD (Concourse CI)
