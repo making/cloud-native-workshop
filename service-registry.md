@@ -91,6 +91,9 @@ Package Explorerの`EurekaServerApplication.java`を右クリック -> Run As ->
 
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/1df21287-d81a-b3d5-f9c1-41a049fd0320.png)
 
+
+Config Serverに設定した[各サービスのURL](https://github.com/making/metflix-config/blob/service-registry/application.properties)が物理名(ホスト名+ポート番号)ではなく論理名になっていることに着目してください。
+
 ### Membershipサービスのスケールアウト
 
 Membershipサービスを3台にスケールアウトさせましょう。
