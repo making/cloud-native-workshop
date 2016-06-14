@@ -50,6 +50,7 @@ Membership ServiceとRecommendations ServiceはREST APIであり、以下のよ�
 
 ### TODO
 
+- [ ] Support Intelligent Routing (Zuul)
 - [ ] Support Distibuted Tracing (Spring Cloud Sleuth + Zipkin)
 - [ ] Support OAuth2 (Spring Cloud Security)
 - [ ] Support CI/CD (Concourse CI)
