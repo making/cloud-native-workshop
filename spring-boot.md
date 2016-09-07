@@ -224,19 +224,19 @@ STSで"Run As -> Spring Boot App"を実行する代わりに、`./mvnw package`�
 ``` console
 $ export WORKSHOP=<your workspace>
 $ cd $WORKSHOP/membership
-$ ./mvnw clean package
+$ ./mvnw clean package -DskipTests=true
 $ java -jar target/membership-0.0.1-SNAPSHOT.jar
 ```
 
 ``` console
 $ cd $WORKSHOP/recommendations
-$ ./mvnw clean package
+$ ./mvnw clean package -DskipTests=true
 $ java -jar target/recommendations-0.0.1-SNAPSHOT.jar
 ```
 
 
 ``` console
 $ cd $WORKSHOP/ui
-$ ./mvnw clean package
+$ ./mvnw clean package -DskipTests=true
 $ java -jar target/ui-0.0.1-SNAPSHOT.jar
 ```
