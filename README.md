@@ -57,3 +57,9 @@ Extra Chapter
 - [x] Support Distibuted Tracing (Spring Cloud Sleuth + Zipkin)
 - [ ] Support OAuth2 (Spring Cloud Security)
 - [ ] Support CI/CD (Concourse CI)
+
+
+### 利用規約
+
+無断で本ドキュメントの一部または全部を改変したり、本ドキュメントを用いた二次的著作物を作成することを禁止します。ただし、ドキュメント修正のためのPull Requestは大歓迎です。
+
