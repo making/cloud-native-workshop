@@ -22,7 +22,7 @@
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/93c85cef-734f-704a-2118-42fc6c23ece4.png)
 
 1. * Cloud Config -> `Config Server`
- * Ops -> `Actucator`
+ * Ops -> `Actuator`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/114e0715-9955-156c-9214-179aa782ea3d.png)
 
 1. workspaceを確認
