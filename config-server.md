@@ -22,8 +22,9 @@
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/93c85cef-734f-704a-2118-42fc6c23ece4.png)
 
 1. * Cloud Config -> `Config Server`
- * Ops -> `Actucator`
-![image](https://qiita-image-store.s3.amazonaws.com/0/1852/114e0715-9955-156c-9214-179aa782ea3d.png)
+ * Ops -> `Actuator`
+ * Core -> `Security`  
+![image](https://user-images.githubusercontent.com/15058885/27271443-bcefda5e-54ff-11e7-8b5a-67f81a942548.png)
 
 1. workspaceを確認
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/1d41a637-4c37-7049-c318-a830b13c8567.png)

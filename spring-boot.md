@@ -25,7 +25,7 @@
  * Package: `com.metflix`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/e4f01929-5c76-f477-bb25-f0db2364193b.png)
 
-1. * Ops -> `Actucator`
+1. * Ops -> `Actuator`
  * Web -> `Web`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/b56f00fd-3317-9fc8-5a03-d692b96be2e4.png)
 1. workspaceを確認
@@ -93,7 +93,7 @@ Boot Dashboardでアプリケーションの制御を行える。
  * Package: `com.metflix`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/20e595bd-1c6e-03d7-cfbf-ace23b30ca00.png)
 
-1. * Ops -> `Actucator`
+1. * Ops -> `Actuator`
  * Web -> `Web`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/b56f00fd-3317-9fc8-5a03-d692b96be2e4.png)
 1. workspaceを確認
@@ -156,7 +156,7 @@ Membershipサービスにアクセスがあることを確認
 
 
 1. * Core -> `Security`
- * Ops -> `Actucator`
+ * Ops -> `Actuator`
  * Web -> `Web`
  * Template Engines -> `Thymeleaf`
 ![image](https://qiita-image-store.s3.amazonaws.com/0/1852/a6b922ac-5f30-897a-8312-263311084910.png)
